@@ -1,0 +1,569 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #404040;
+}
+
+.outer-container {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.top-descriptions {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.contact-container {
+	width: 100%;
+	min-height: 70vh;
+	background-color: #994d00;
+	border-style: solid;
+	border-color: #994d00;
+	color: whitesmoke;
+	box-shadow: 0px -3px 10px #808080;
+}
+
+.inner-container {
+	text-align: center;
+}
+
+/*TOP IMAGE*/
+.top-image {
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px #4d4d4d
+}
+
+/*SOCIAL ACCOUNTS */
+.fa-brands {
+	color: #404040;
+	text-decoration: none;
+}
+
+/*MY WORKS*/
+.card {
+	margin: auto;
+	box-shadow: 0px 3px 5px #808080
+}
+
+.card-body {
+	text-align: left;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+
+	background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+}
+
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+/*******************************IT ALL STARTs HERE*************************/
+	.inner-container {
+		text-align: left;
+	}
+
+	hr {
+		width: 100vw;
+		margin: 0px;
+	}
+
+	.last {
+		margin-bottom: 4.5rem;
+	}
+
+	.section-title-top {
+		background-color: #994d00;
+		padding: 30px;
+		box-shadow: 0px 3px 10px #808080;
+	}
+	.section-title h1{
+		margin-top: 1.5rem;
+		margin-left: 1.5rem;
+		font-size: 2.5rem;
+	}
+	/*TOP IMAGE*/
+	.top-image {
+		display: none;
+	}
+
+	.top-name {
+		margin-top: 4.5rem;
+		margin-left: 1.5rem;
+	}
+
+	.top-name span {
+		color: #994d00;
+	}
+
+	.top-name h1 {
+		font-size: 3.1rem;
+		letter-spacing: 4px;
+
+  		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.sub-heading h5{
+		font-size: 1.4rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		letter-spacing: 2px;
+	}
+
+	.sub-heading a {
+		color: #994d00;
+	}
+
+	.descriptions p {
+		margin-top: 3.5rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		font-size: 1.15rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*SOCIAL ACCOUNTS*/
+
+	.social-accounts {
+		margin-left: .8rem;
+		margin-top: 3.5rem;
+		margin-bottom: 4.5rem;
+	}
+	.fa-brands {
+		margin: .7rem;
+	}
+
+	/*MY WORKS*/
+	.card {
+		margin-top: 4.5rem;
+		width: 20rem;
+	}
+
+	/*EXPERIENCE*/
+	.title h1 {
+		margin-top: 4.5rem;
+		margin-right: 1.5rem;
+		font-size: 2rem;
+
+		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.sub-title h5{
+		margin-top: -.5rem;
+		margin-left: 1.5rem;
+		font-size: 1.5rem;
+		color: #737373;
+	}
+
+	.work-descriptions {
+		margin-top: 2rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		font-size: 1rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.years {
+		margin-top: 2rem;
+		margin-left: 1.5rem;
+		color: #994d00;
+		font-size: 1rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*EXPERTISE*/
+	.sub-title-expertise h5 {
+		margin-top: 4.5rem;
+		margin-left: 1.5rem;
+		font-size: 1.5rem;
+		color: #737373;
+	}
+	.social-accounts-expertise {
+		margin-left: .8rem;
+		margin-top: 2rem;
+	}
+
+	/*CONTACT*/
+	.title-contact h1{
+		margin-top: 3.5rem;
+		margin-right: 1.5rem;
+		font-size: 3.1rem;
+		text-align: center;
+	}
+	
+	.contact-descriptions {
+		margin-top: 3.5rem;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+		font-size: 1.15rem;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+	}
+
+	.contact-descriptions a {
+		color: whitesmoke;
+		font-family: 'Saira Extra Condensed', sans-serif;
+		font-size: 1.4rem;
+		letter-spacing: 2px;
+	}
+	.social-accounts-contact {
+		align-content: center;
+		margin-top: 3.5rem;
+		margin-bottom: 4.5rem;
+	}
+	.social-accounts-contact a {
+		color: whitesmoke;
+	}
+
+@media screen and (min-width: 768px) {
+	hr {
+		width: 100vw;
+		margin: 0px;
+	}
+
+	.section-title {
+		width: 100%;
+	}
+
+	.inner-container {
+		width: 100%;
+	}
+
+	.section-title-top {
+		background-color: #994d00;
+		padding: 50px;
+		box-shadow: 0px 3px 10px #808080;
+
+	}
+	.section-title h1{
+		margin-top: 3rem;
+		margin-left: 3rem;
+		font-size: 3.5rem;
+
+		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 2px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+	/*TOP IMAGE*/
+	.top-image {
+		display: none;
+	}
+
+	.top-name {
+		margin-top: 10rem;
+		margin-left: 3rem;
+	}
+
+	.top-name span {
+		color: #994d00;
+	}
+
+	.top-name h1 {
+		font-size: 5rem;
+		letter-spacing: 6px;
+
+  		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 2px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.sub-heading h5{
+		font-size: 2rem;
+		margin-left: 3rem;
+		margin-right: 2.5rem;
+		letter-spacing: 2px;
+	}
+
+	.sub-heading a {
+		color: #994d00;
+	}
+
+	.descriptions p {
+		margin-top: 5rem;
+		margin-left: 3rem;
+		margin-right: 3rem;
+		font-size: 1.6rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*SOCIAL ACCOUNTS*/
+
+	.social-accounts {
+		margin-left: 1.5rem;
+		margin-top: 5rem;
+		margin-bottom: 4.5rem;
+	}
+
+	.fa-brands {
+		margin: 1.5rem;
+	}
+
+	/*MY WORKS*/
+	.card {
+		margin-top: 4.5rem;
+		width: 40rem;
+	}
+
+	.card-title {
+		font-size: 2rem;
+		letter-spacing: 1px;
+
+		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.card-text {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.5rem;
+	}
+
+	/*EXPERIENCE*/
+	.title h1 {
+		margin-top: 5rem;
+		margin-right: 3rem;
+		font-size: 2.5rem;
+
+		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 2px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.sub-title h5{
+		margin-top: -.5rem;
+		margin-left: 3rem;
+		font-size: 2rem;
+		color: #737373;
+	}
+
+	.work-descriptions {
+		margin-top: 2rem;
+		margin-left: 3rem;
+		margin-right: 3rem;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.years {
+		margin-top: 2rem;
+		margin-left: 3rem;
+		color: #994d00;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	/*EXPERTISE*/
+	.sub-title-expertise h5 {
+		margin-top: 5rem;
+		margin-left: 3rem;
+		font-size: 2rem;
+		color: #737373;
+	}
+	.social-accounts-expertise {
+		margin-left: 1.5rem;
+		margin-top: 2rem;
+	}
+
+	/*CONTACT*/
+	.title-contact h1{
+		margin-top: 10rem;
+		margin-left: 5rem;
+		margin-right: 6rem;
+		font-size: 5rem;
+	}
+	
+	.contact-descriptions {
+		margin-top: 3.5rem;
+		margin-left: 3rem;
+		margin-right: 4rem;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+	}
+
+	.contact-descriptions a {
+		color: whitesmoke;
+		font-family: 'Saira Extra Condensed', sans-serif;
+		font-size: 2rem;
+		letter-spacing: 2px;
+	}
+	.social-accounts-contact {
+		align-content: center;
+		margin-top: 3.5rem;
+		margin-bottom: 4.5rem;
+	}
+	.social-accounts-contact a {
+		color: whitesmoke;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	hr {
+		width: 55%;
+		margin: auto;
+	}
+
+	.top-name {
+		margin-top: 10rem;
+		margin-left: 30rem;
+	}
+
+	.top-name h1 {
+  		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.sub-heading h5{
+		font-size: 2rem;
+		margin-left: 30rem;
+		margin-right: 2.5rem;
+		letter-spacing: 2px;
+	}
+
+	.sub-heading a {
+		color: #994d00;
+	}
+
+	.descriptions p {
+		margin-top: 5rem;
+		margin-left: 30rem;
+		margin-right: 30rem;
+		font-size: 1.6rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.social-accounts {
+		margin-left: 28.5rem;
+		margin-top: 5rem;
+		margin-bottom: 4.5rem;
+	}
+
+	.section-title h1{
+		margin-top: 10rem;
+		margin-left: 30rem;
+		font-size: 3.5rem;
+
+		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.sub-title h5{
+		margin-top: -.5rem;
+		margin-left: 30rem;
+		font-size: 2rem;
+		color: #737373;
+	}
+
+	.work-descriptions {
+		margin-top: 2rem;
+		margin-left: 30rem;
+		margin-right: 30rem;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.years {
+		margin-top: 2rem;
+		margin-left: 30rem;
+		color: #994d00;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.last {
+		margin-bottom: 10rem;
+	}
+
+	.last-this {
+		margin-bottom: 10rem;
+		padding-bottom: 1rem;
+	}
+
+	.sub-title-expertise h5 {
+		margin-top: 5rem;
+		margin-left: 30rem;
+		font-size: 2rem;
+		color: #737373;
+	}
+	.social-accounts-expertise {
+		margin-left: 28.5rem;
+		margin-top: 2rem;
+	}
+
+	.card {
+		margin-top: 4.5rem;
+		width: 50rem;
+	}
+
+	.card-title {
+		margin-left: 2rem;
+		font-size: 2rem;
+		letter-spacing: 1px;
+
+		background-color: #f0f0f0;
+  		text-shadow: 0px 0px 1px #555;
+  		-webkit-background-clip: text;
+    	-moz-background-clip: text;
+	}
+
+	.card-text {
+		margin-left: 2rem;
+	}
+
+	.title-contact h1{
+		margin-top: 10rem;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 5rem;
+	}
+
+	.contact-descriptions {
+		margin-top: 3.5rem;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.5rem;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+	}
+
+	.contact-descriptions a {
+		color: whitesmoke;
+		font-family: 'Saira Extra Condensed', sans-serif;
+		font-size: 2rem;
+		letter-spacing: 2px;
+	}
+	.social-accounts-contact {
+		align-content: center;
+		margin-top: 3.5rem;
+		margin-bottom: 4.5rem;
+	}
+}
